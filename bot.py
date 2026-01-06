@@ -1,8 +1,8 @@
 from telebot import*
 import requests
 from re import*
-TOKEN = "8123700052:AAH0MCMvHxAUfqp_v0NuD7KvCz8nnpsOnzY"
-weather_TOKEN="209b7c5cc9ee459197d71700252009"
+TOKEN = "YOUR_API"
+weather_TOKEN="YOUR_API"
 bot = TeleBot(TOKEN)
 
 def get_weather(city):
@@ -125,3 +125,4 @@ def send_weather_forecast(message):
 
 #print("Бот запущен!")
 bot.infinity_polling()
+
